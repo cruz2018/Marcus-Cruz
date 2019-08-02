@@ -4,5 +4,10 @@
     document.forms[0]['pf.username'].value = document.forms[0]['dname'].value.toLowerCase();
     document.forms[0].submit();
   }
+  
+  function postCancel() {
+    document.forms[0]['pf.cancel'].value = 'clicked';
+    document.forms[0].submit();
+  }
 
 </script>
